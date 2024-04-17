@@ -1,11 +1,13 @@
-
 header{
-    flex: 0;
     background-color: aqua;
+    display: flex;
+    flex: auto;
 }
 .anchorheader {
     border: solid black;
- 
+    width: 10rem;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
 .imgheader1{
