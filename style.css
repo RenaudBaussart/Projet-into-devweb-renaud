@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 header{
     flex: 0;
     background-color: aqua;
@@ -17,8 +17,7 @@ header{
     width: 5rem;
 }
 
-||||||| a0c0143
-=======
+
 .imgContainer {
     display: grid;
     grid-template-columns: 5fr 2fr 3fr 2fr 5fr;
@@ -56,4 +55,3 @@ header{
     text-align: center;
     margin-top: 10%;
 }
->>>>>>> c7622b40ece3a7671be9217065375f1ae48ae722
