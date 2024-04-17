@@ -17,8 +17,7 @@ header{
     width: 5rem;
 }
 
-/* En premier, faite la composition de votre grille, créez un tableau avec le bon nombre de lignes et de colonnes */
-
+/* En premier, faite la composition de votre grille en utilisant les grid-template, vous créez ainsi un tableau avec le bon nombre de lignes et de colonnes.*/
 .imgContainer {
     display: grid;
     grid-template-columns: 5fr 2fr 3fr 2fr 5fr;
@@ -30,7 +29,7 @@ header{
     row-gap: 3%;
 }
 
-/* Puis, placez chaque element (les titres, les images, le paragraphe) dans les cases qui correspondent. */
+/* Puis, placez chaque element (les titres, les images, le paragraphe) dans les cases qui correspondent, en les alignants au bonnes columns et rows. */
 .titreImg1 {
     grid-column: 1 / 3;
     grid-row: 1 / 2;
@@ -59,3 +58,5 @@ header{
     text-align: center;
     margin-top: 10%;
 }
+
+/* Vous pouvez appliquer des espacements pour mettre en forme votre tableau grace au system du 'box model'. Jouez avec le conteneur et les éléments contenus par ce biais. */
