@@ -1,13 +1,18 @@
 header{
-    
+    flex: 0;
+    background-color: aqua;
 }
 .anchorheader {
     border: solid black;
  
 }
 
-.imgheader{
-    resize: ;
-    height: ;
-    width: ;
+.imgheader1{
+    height: 6rem;
+    width: 6rem;
     }
+.imgheader2{
+    height: 6rem;
+    width: 5rem;
+}
+
