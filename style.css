@@ -1,4 +1,24 @@
+
+header{
+    flex: 0;
+    background-color: aqua;
+}
+.anchorheader {
+    border: solid black;
+ 
+}
+
+.imgheader1{
+    height: 6rem;
+    width: 6rem;
+    }
+.imgheader2{
+    height: 6rem;
+    width: 5rem;
+}
+
 /* En premier, faite la composition de votre grille, créez un tableau avec le bon nombre de lignes et de colonnes */
+
 .imgContainer {
     display: grid;
     grid-template-columns: 5fr 2fr 3fr 2fr 5fr;
@@ -7,7 +27,7 @@
     padding-left: 10%;
     padding-right: 10%;
     margin: 5%;
-    row-gap: 3%;    
+    row-gap: 3%;
 }
 
 /* Puis, placez chaque element (les titres, les images, le paragraphe) dans les cases qui correspondent. */
