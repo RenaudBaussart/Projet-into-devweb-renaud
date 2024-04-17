@@ -1,31 +1,13 @@
-.hcontainer{
-    width: 960px;
-    max-width: 100%;
-    padding: 20px;
-    margin: 0 auto;
-}
 header{
-    background-color: aqua;
+    background-color: aqua;  
+}
+
+.hcontainer{
+    max-width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-around;
-    flex-wrap:wrap;
-}
-.anchorheader {
-    border: solid black;
-    display: inline-block;
-    padding: 0.5em 1.5em;
-}
-
-.imgheader1{
-    height: 2rem;
-    width: 6rem;
-    flex-direction: row;
-    }
-
-.imgheader2{
-    height: 6rem;
-    width: 5rem;
+    flex-wrap: wrap;
 }
 
 header ul{
@@ -37,6 +19,21 @@ header li{
     display: inline;
 }
 
+.hlink {
+    border: solid black;
+    display: inline-block;
+    padding: 0.5em 1.5em;
+}
+
+.imgheader1{
+    height: 2rem;
+    width: 6rem;
+}
+
+.imgheader2{
+    height: 6rem;
+    width: 5rem;
+}
 
 
 
