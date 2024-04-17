@@ -1,42 +1,69 @@
-
 header{
-    flex: 0;
-    background-color: aqua;
+
+    position: fixed;
+    width: 100%;
 }
-.anchorheader {
+
+.hcontainer{
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+header ul{
+    margin: 1em 0 0.5em;
+    text-align: center;
+}
+
+header li{
+    display: inline;
+}
+
+.hlink {
     border: solid black;
- 
+    display: inline-block;
+    padding: 0.5em 1.5em;
 }
 
 .imgheader1{
-    height: 6rem;
+    height: 2rem;
     width: 6rem;
-    }
+}
+
 .imgheader2{
     height: 6rem;
     width: 5rem;
 }
 
 
+
+/* En premier, faite la composition de votre grille en utilisant les grid-template, vous créez ainsi un tableau avec le bon nombre de lignes et de colonnes.*/
+
 .imgContainer {
     display: grid;
     grid-template-columns: 5fr 2fr 3fr 2fr 5fr;
     grid-template-rows: 50px 1fr 1fr;
-    padding: 5%;
+    padding: 2%;
     padding-left: 10%;
     padding-right: 10%;
-    margin: 5%;
-    row-gap: 3%;    
+    margin: 2%;
+    margin-top: 8%;
+    row-gap: 3%;
 }
 
+/* Puis, placez chaque element (les titres, les images, le paragraphe) dans les cases qui correspondent, en les alignants au bonnes columns et rows. */
 .titreImg1 {
     grid-column: 1 / 3;
     grid-row: 1 / 2;
+    text-align: center;
 }
 
 .titreImg2 {
     grid-column: 4 / 6;
     grid-row: 1 / 2;
+    text-align: center;
 }
 
 .img1 {
@@ -55,6 +82,7 @@ header{
     text-align: center;
     margin-top: 10%;
 }
+/* Vous pouvez appliquer des espacements pour mettre en forme votre tableau grace au system du 'box model'. Jouez avec le conteneur et les éléments contenus par ce biais. */
 
 .container{
     display: grid;
@@ -97,6 +125,48 @@ form .send{
     grid-column: 2;
     grid-row: 4;
 }
+
+/* footer */
+
+* {
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    font-size: 10px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: auto;
+    font-size: 2rem;
+    display: grid;
+    justify-items: start;
+}
+
+footer div p { 
+
+}
+
+.logos {
+    
+}
+
+
+p {
+    font-size: 2rem;
+}
+
 body{
     background-image:linear-gradient(to bottom right ,rgba(151, 180, 220, 0.8),rgba(187, 236, 248, 0.973)) ;
 }
