@@ -1,23 +1,46 @@
-
 header{
-    flex: 0;
-    background-color: aqua;
+
+    position: fixed;
+    width: 100%;
 }
-.anchorheader {
+
+.hcontainer{
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+header ul{
+    margin: 1em 0 0.5em;
+    text-align: center;
+}
+
+header li{
+    display: inline;
+}
+
+.hlink {
     border: solid black;
- 
+    display: inline-block;
+    padding: 0.5em 1.5em;
 }
 
 .imgheader1{
-    height: 6rem;
+    height: 2rem;
     width: 6rem;
-    }
+}
+
 .imgheader2{
     height: 6rem;
     width: 5rem;
 }
 
+
+
 /* En premier, faite la composition de votre grille en utilisant les grid-template, vous créez ainsi un tableau avec le bon nombre de lignes et de colonnes.*/
+
 .imgContainer {
     display: grid;
     grid-template-columns: 5fr 2fr 3fr 2fr 5fr;
