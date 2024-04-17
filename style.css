@@ -1,3 +1,20 @@
+* {
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    font-size: 10px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* style header */
+
 header{
 
     position: fixed;
@@ -39,7 +56,7 @@ header li{
 
 
 
-/* En premier, faite la composition de votre grille en utilisant les grid-template, vous créez ainsi un tableau avec le bon nombre de lignes et de colonnes.*/
+/* En premier, faites la composition de votre grille en utilisant les grid-template, vous créez ainsi un tableau avec le bon nombre de lignes et de colonnes.*/
 
 .imgContainer {
     display: grid;
@@ -58,22 +75,26 @@ header li{
     grid-column: 1 / 3;
     grid-row: 1 / 2;
     text-align: center;
+    font-size: 3rem;
 }
 
 .titreImg2 {
     grid-column: 4 / 6;
     grid-row: 1 / 2;
     text-align: center;
+    font-size: 3rem;
 }
 
 .img1 {
     grid-column: 1 / 3;
     grid-row: 2 / 3;
+    width: 100%
 }
 
 .img2 {
     grid-column: 4 / 6;
     grid-row: 2 / 3;
+    width: 100%
 }
 
 .imgText {
@@ -81,6 +102,7 @@ header li{
     grid-row: 3 / 4;
     text-align: center;
     margin-top: 10%;
+    font-size: 1.5rem;
 }
 /* Vous pouvez appliquer des espacements pour mettre en forme votre tableau grace au system du 'box model'. Jouez avec le conteneur et les éléments contenus par ce biais. */
 
@@ -128,20 +150,6 @@ form .send{
 
 /* footer */
 
-* {
-    margin: 0 0 0 0;
-    padding: 0 0 0 0;
-    font-size: 10px;
-}
-
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-}
 
 footer {
     background-color: #333;
