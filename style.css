@@ -1,22 +1,40 @@
+.hcontainer{
+    width: 960px;
+    max-width: 100%;
+    padding: 20px;
+    margin: 0 auto;
+}
 header{
     background-color: aqua;
     display: flex;
-    flex: auto;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap:wrap;
 }
 .anchorheader {
     border: solid black;
-    width: 10rem;
-    align-items: center;
-    flex-wrap: wrap;
+    display: inline-block;
+    padding: 0.5em 1.5em;
 }
 
 .imgheader1{
-    height: 6rem;
+    height: 2rem;
     width: 6rem;
+    flex-direction: row;
     }
+
 .imgheader2{
     height: 6rem;
     width: 5rem;
+}
+
+header ul{
+    margin: 1em 0 0.5em;
+    text-align: center;
+}
+
+header li{
+    display: inline;
 }
 
 
